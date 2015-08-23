@@ -63,5 +63,4 @@ public class FixedMarkupLineAggregatorTest {
         assertEquals("qqq  www123", aggregator.aggregate(new Person("qqq", "wwwww", 1 , Double.valueOf(1.123f))));
     }
 
-    // todo : add contiperf test here
 }
